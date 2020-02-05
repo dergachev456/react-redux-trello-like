@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e95da1af530e1df2fcce32f0314de02f",
+    "revision": "753e1874ff05488966b455abd7c27146",
     "url": "/react-redux-trello-like/index.html"
   },
   {
-    "revision": "0b891991d30bb5d520de",
+    "revision": "70f5bab1a4b267e71556",
     "url": "/react-redux-trello-like/static/css/2.8953b94b.chunk.css"
   },
   {
-    "revision": "209301d769ff98738c93",
+    "revision": "1c7843c0f67fb0608364",
     "url": "/react-redux-trello-like/static/css/main.e0ecc367.chunk.css"
   },
   {
-    "revision": "0b891991d30bb5d520de",
-    "url": "/react-redux-trello-like/static/js/2.6f57c4a6.chunk.js"
+    "revision": "70f5bab1a4b267e71556",
+    "url": "/react-redux-trello-like/static/js/2.88f0857a.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/react-redux-trello-like/static/js/2.6f57c4a6.chunk.js.LICENSE"
+    "url": "/react-redux-trello-like/static/js/2.88f0857a.chunk.js.LICENSE"
   },
   {
-    "revision": "209301d769ff98738c93",
-    "url": "/react-redux-trello-like/static/js/main.ec9a8109.chunk.js"
+    "revision": "1c7843c0f67fb0608364",
+    "url": "/react-redux-trello-like/static/js/main.b2d60e14.chunk.js"
   },
   {
     "revision": "259b9aaa8c0a0fa10d8b",
