@@ -4,7 +4,7 @@ import BoardList from './components/BoardList/BoardList'
 import { connect } from 'react-redux';
 import { createBoard, removeBoard, editBoard, createTaskList, removeTaskList, editTaskList, createTask, removeTask, editTask, completeTask } from './store/actions/boardActionCreator';
 import { createNote, removeNote, editNote, editNoteText } from './store/actions/noteActionCreator'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import TaskLists from './components/TasksLists/TaskLists';
 import SingleNote from './components/SingleNote/SingleNote';
 
@@ -179,7 +179,7 @@ class App extends Component {
       isEditedTask, newNoteName, newBoardName, editedBoardName, isEditedBoard, editedNoteName, isEditedNote, isEditedNoteText } = this.state;
     return (
       <div>
-        <BrowserRouter>
+        <HashRouter>
           <Switch>
             <Route exact path='/' render={() => (<BoardList
               onChangeCreateBoardInput={this.onChangeCreateBoardInput}
@@ -241,7 +241,7 @@ class App extends Component {
               switchIsEditedNoteText={this.switchIsEditedNoteText}
             />)} />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     )
   }
